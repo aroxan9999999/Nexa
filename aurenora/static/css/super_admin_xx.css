@@ -1,0 +1,246 @@
+/* ==== БАЗА (это — твоя "первая форма", теперь базовая для всех трёх) ==== */
+.custom-form-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px; /* как у тебя ниже */
+}
+.custom-fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/* селекты страны и бота — без привязки к id, у всех форм одинаково */
+.form-box select[name$="country"],
+.form-box select[name$="bot"] {
+    width: auto;
+    max-width: 180px;
+    padding: 8px;
+    font-size: 14px;
+    text-align-last: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+    line-height: normal;
+}
+.form-row select { line-height: 1.5; }
+
+/* общие инпуты и textarea — наследуют базу */
+.form-row input[type="text"],
+.form-row textarea {
+    padding: 6px;
+    font-size: 14px;
+    min-width: 90px;
+    margin-left: 0;
+}
+
+/* конкретика для кнопки (button_x) из первой формы — базовая ширина-растяжение */
+.form-row input[type="text"][name$="button_x"] {
+    flex: 1;
+}
+
+/* текстовое поле основной формы — базовый вид, который наследуют и другие */
+.form-row textarea[name$="text"] {
+    flex: 3.8;
+    padding: 5px;
+    font-size: 18px;
+    min-width: 150px;
+    height: 30px;
+}
+
+
+/* файл — прячем инпут, используем общий label */
+.form-row input[type="file"] { display: none; }
+.file-label {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.file-label:hover {
+    background-color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+/* имя файла — КЛАСС, чтобы не было дубликатов id */
+.file-name-display {
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+}
+
+/* кнопка submit — общая для всех форм */
+button[type="submit"] {
+    flex: 0 1 auto;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: auto;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 140px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 4px 8px rgba(0,123,255,0.2);
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0,86,179,0.3);
+}
+
+/* плейсхолдеры — общий стиль */
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+    font-size: 13px;
+    color: #777;
+}
+
+/* адаптив — общий */
+@media (max-width: 1300px) {
+    .form-row { flex-wrap: wrap; }
+    .form-row > * { min-width: 100%; }
+    .file-label { font-size: 11px; }
+}
+
+/* шапки */
+.custom-header {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #2a7a8e;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.compact-description-header {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    max-width: 97.3%;
+    padding: 15px 20px;
+    background-color: #2a7a8e;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+    .custom-header {
+        padding: 12px 15px;
+        font-size: 16px;
+        text-align: center;
+        width: 95%;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+    .compact-description-header {
+        padding: 12px 15px;
+        font-size: 16px;
+        text-align: center;
+        max-width: 93.3%;
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .custom-header {
+        padding: 10px 12px;
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 0;
+    }
+    .compact-description-header {
+        padding: 10px 12px;
+        font-size: 14px;
+        text-align: center;
+        max-width: 87.7%;
+        margin-top: 50px;
+        margin-bottom: 12px;
+        border-radius: 0;
+    }
+}
+
+/* ==== ТАБЫ (общие) ==== */
+.form-tabs {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 14px;
+}
+.form-tab {
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: #e7eef3;
+    color: #1f2d3a;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform .15s ease, box-shadow .2s ease, background-color .2s ease;
+}
+.form-tab:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.form-tab.active { background: #2a7a8e; color: #fff; box-shadow: 0 2px 10px rgba(42,122,142,.35); }
+
+/* ==== МИНИМАЛЬНЫЕ ОВЕРРАЙДЫ ДЛЯ УНИКАЛЬНЫХ ПОЛЕЙ ДРУГИХ ФОРМ ==== */
+
+/* Email: тема и тело — логичная ширина поверх базовых правил */
+#email-form input[type="text"][name$="subject"] { flex: 2; min-width: 160px; }
+#email-form textarea[name$="message"] {
+    flex: 3.8;
+    font-size: 16px;
+    min-width: 200px;
+    min-height: 80px;
+    line-height: 1.4;
+    resize: vertical;
+}
+
+/* Phone: имя отправителя чуть уже, текст — базовый */
+#phone-form input[type="text"][name$="sender_name"] { flex: 1.2; min-width: 140px; }
+
+/* если text на телефоне — textarea, дадим чуть высоты на мобилках */
+@media (max-width: 768px) {
+    #email-form textarea[name$="message"] { min-height: 70px; }
+}
+@media (max-width: 480px) {
+    #email-form textarea[name$="message"] { min-height: 60px; font-size: 15px; }
+}
+
+/* единый стиль плейсхолдеров уже задан выше (.form-row …) */

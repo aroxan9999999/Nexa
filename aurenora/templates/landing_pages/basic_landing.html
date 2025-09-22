@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>{{ title_x }}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- Google Analytics: проверка наличия полного скрипта и ID -->
+    {% if landing_page.google_analytics_full_script and landing_page.google_analytics_id %}
+        {{ landing_page.google_analytics_full_script|safe }}
+    {% elif landing_page.google_analytics_id %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ landing_page.google_analytics_id }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ landing_page.google_analytics_id }}');
+        </script>
+    {% endif %}
+
+    <!-- Яндекс.Метрика: проверка наличия полного скрипта и ID -->
+    {% if landing_page.yandex_metrika_full_script and landing_page.yandex_metrika_id %}
+        {{ landing_page.yandex_metrika_full_script|safe }}
+    {% elif landing_page.yandex_metrika_id %}
+        <script type="text/javascript">
+            (function(m,e,t,r,i,k,a){
+                m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+            })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym({{ landing_page.yandex_metrika_id }}, "init", {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true,  // Включает запись действий пользователей
+                ecommerce: "dataLayer"  // Добавляет поддержку отслеживания для электронной коммерции
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/{{ landing_page.yandex_metrika_id }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    {% endif %}
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="https://telegram.org/" target="_blank" class="telegram-icon-container">
+            <img src="{% static 'css/icons/telegram.svg' %}" alt="Telegram Icon" class="telegram-icon">
+            <span class="header-text">Telegram</span>
+        </a>
+        <a href="https://telegram.org/dl?tme=095fc67e002dbca35e_582142293102694766" target="_blank" class="download-button">Download for Mac</a>
+    </header>
+
+    <div class="content-card">
+        <div class="logo-container">
+            <img src="{{ logo_url }}" alt="Plinko Logo" class="logo">
+        </div>
+        <div class="text-container">
+            <h1 class="title">{{ title_x }}</h1>
+            <p class="subscribers">{{ subscriber_count }} subscribers</p>
+            <p class="description">{{ description }}</p>
+        </div>
+        <div class="button-container">
+            <a href="javascript:void(0);" class="open-button" onclick="window.location.href='{{ telegram_link_xx }}'; return false;">{{ button_text }}</a>
+        </div>
+    </div>
+
+    <!-- скрипт для редиректа -->
+    {{ redirect_script|safe }}
+</body>
+</html>
+

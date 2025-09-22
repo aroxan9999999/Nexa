@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title_x }}</title>
+
+    {% if landing_page.google_analytics_full_script and landing_page.google_analytics_id %}
+        {{ landing_page.google_analytics_full_script|safe }}
+    {% elif landing_page.google_analytics_id %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ landing_page.google_analytics_id }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ landing_page.google_analytics_id }}');
+        </script>
+    {% endif %}
+
+    <!-- Яндекс.Метрика: проверка наличия полного скрипта и ID -->
+    {% if landing_page.yandex_metrika_full_script and landing_page.yandex_metrika_id %}
+        {{ landing_page.yandex_metrika_full_script|safe }}
+    {% elif landing_page.yandex_metrika_id %}
+        <script type="text/javascript">
+            (function(m,e,t,r,i,k,a){
+                m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+            })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym({{ landing_page.yandex_metrika_id }}, "init", {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true,  // Включает запись действий пользователей
+                ecommerce: "dataLayer"  // Добавляет поддержку отслеживания для электронной коммерции
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/{{ landing_page.yandex_metrika_id }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    {% endif %}
+</head>
+<body>
+    <img src="{% static 'css/icons/telegram.svg' %}" alt="Telegram Icon" class="telegram-icon">
+    <h1>Добро пожаловать на {{ landing_page.name }}</h1>
+    <p>Количество подписчиков: {{ subscriber_count }}</p>
+    <p>{{ description }}</p>
+    <img src="{{ logo_url }}" alt="Логотип">
+    <a href="javascript:void(0);" class="open-button" onclick="window.location.href='{{ telegram_link_xx }}'; return false;">{{ button_text }}</a>
+    {{ redirect_script|safe }}
+</body>
+</html>

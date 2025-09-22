@@ -1,0 +1,72 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Подключение стилей и скриптов -->
+    <link rel="stylesheet" href="{% static 'css/super_admin_xx.css' %}">
+    <script src="{% static 'js/super_admin_xx.js' %}" defer></script>
+
+    <!-- Наш контейнер с формами ВЫШЕ стандартного контента -->
+    <div id="hidden-form-container" style="display:none;">
+        <div class="custom-header">Мгновенная рассылка</div>
+
+        <!-- Переключатель форм -->
+        <div class="form-tabs">
+            <button type="button" class="form-tab" data-target="msg-form">Сообщение</button>
+            <button type="button" class="form-tab" data-target="email-form">Email</button>
+            <button type="button" class="form-tab" data-target="phone-form">Телефон</button>
+        </div>
+
+        <!-- Форма: Telegram -->
+        <div class="custom-form-container form-box" id="msg-form">
+            <form id="custom-form-msg" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <fieldset class="custom-fieldset">
+                    <div class="form-row">
+                        {{ custom_form.country }}
+                        {{ custom_form.bot }}
+                        {{ custom_form.button_x }}
+                        {{ custom_form.text }}
+                        {{ custom_form.file }}
+                        <button type="submit" name="submit_form_msg">Отправить</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- Форма: Email -->
+        <div class="custom-form-container form-box" id="email-form" style="display:none;">
+            <form id="custom-form-email" method="post">
+                {% csrf_token %}
+                <fieldset class="custom-fieldset">
+                    <div class="form-row">
+                        {{ email_form.country }}
+                        {{ email_form.subject }}
+                        {{ email_form.message }}
+                        <button type="submit" name="submit_form_email">Отправить Email</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- Форма: SMS -->
+        <div class="custom-form-container form-box" id="phone-form" style="display:none;">
+            <form id="custom-form-phone" method="post">
+                {% csrf_token %}
+                <fieldset class="custom-fieldset">
+                    <div class="form-row">
+                        {{ phone_form.country }}
+                        {{ phone_form.sender_name }}
+                        {{ phone_form.text }}
+                        <button type="submit" name="submit_form_phone">Отправить SMS</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <!-- А вот ТЕПЕРЬ стандартный контент админки (таблица и т.п.) -->
+    {{ block.super }}
+
+{% endblock %}

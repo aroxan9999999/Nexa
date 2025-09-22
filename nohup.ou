@@ -1,0 +1,7 @@
+[2025-09-23 02:26:59 +0900] [5161] [INFO] Starting gunicorn 23.0.0
+[2025-09-23 02:26:59 +0900] [5161] [INFO] Listening at: http://127.0.0.1:8000 (5161)
+[2025-09-23 02:26:59 +0900] [5161] [INFO] Using worker: gthread
+[2025-09-23 02:26:59 +0900] [5162] [INFO] Booting worker with pid: 5162
+[2025-09-23 02:27:13 +0900] [5161] [INFO] Handling signal: int
+[2025-09-22 20:27:13 +0300] [5162] [INFO] Worker exiting (pid: 5162)
+[2025-09-23 02:27:14 +0900] [5161] [INFO] Shutting down: Master

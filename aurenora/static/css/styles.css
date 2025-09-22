@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('images_x/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #1E1E1E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.telegram-icon-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.telegram-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    transition: box-shadow 0.2s ease;
+    filter: none;
+}
+
+.telegram-icon-container:hover .telegram-icon {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.header-text {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.download-button {
+    background-color: #1c93e3;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s ease;
+    max-width: 250px;
+    margin-left: 10px;
+}
+
+.download-button:hover {
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+.content-card {
+    max-width: 444px;
+    width: 90%;
+    background-color: #1E1E1E;
+    border-radius: 12px;
+    padding: 35px 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-top: 17px;
+}
+
+.logo-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+.logo {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 10px 7px;
+    font-weight: bold;
+    margin-top:25px
+}
+
+.subscribers {
+    font-size: 18px;
+    color: #A0A0A0;
+    margin: 5px 0 12px 0;
+    opacity: 0.7;
+}
+
+.description {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+}
+
+
+.open-button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #1c93e3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 17px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.open-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 30%; /* Уменьшаем ширину световой полосы */
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+    animation: light-slide 1.6s linear infinite;
+}
+
+@keyframes light-slide {
+    0% { left: -100%; }
+    50% { left: 50%; transform: scaleX(0.6); } /* Уменьшение ширины в центре */
+    100% { left: 100%; }
+}
+
+.open-button:hover {
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width: 570px) {
+    body {
+        background-image: url('icons/planshet_xx.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        background-color: #f1f1f1;
+    }
+
+    .header-text {
+        color: #000;
+    }
+
+    .content-card {
+        background-color: #FFFFFF;
+        color: #000;
+    }
+
+    .title,
+    .subscribers,
+    .description {
+        color: #000;
+    }
+
+    .button-container,
+    .download-button {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 350px) and (min-width: 50px) {
+
+    .download-button {
+        font-size: 10px;
+        margin-left: 9px;
+    }
+
+    body {
+        background-image: url('icons/mobile_x_x.jpg');
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .open-button {
+        font-size: 13px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}

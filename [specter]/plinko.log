@@ -1,0 +1,196 @@
+2025-09-21 21:24:23,856 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot:.
+2025-09-21 21:24:23,885 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot: успешно запущен с PID 9730.
+2025-09-21 21:24:23,888 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot: начат.
+2025-09-21 21:24:24,031 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot:.
+2025-09-21 21:24:43,488 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 21:25:02,456 - ERROR - [save-profile] Network error occurred: Request URL is missing an 'http://' or 'https://' protocol.
+2025-09-21 21:25:02,457 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-21 21:26:06,211 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 21:26:53,775 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot: успешно запущен.
+2025-09-21 21:26:53,786 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot: успешно завершен.
+2025-09-21 21:39:26,096 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot:.
+2025-09-21 21:39:26,096 - ERROR - [plinko kill] Ошибка при завершении процесса с PID 9730 для бота с node_id dark_27_chanell_bot:: [Errno 3] No such process
+2025-09-21 21:40:07,768 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot:.
+2025-09-21 21:40:07,781 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot: начат.
+2025-09-21 21:40:07,786 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot: успешно запущен с PID 10203.
+2025-09-21 21:40:07,841 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot:.
+2025-09-21 21:40:08,490 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 21:40:31,696 - INFO - [save-profile] Data sent successfully.
+2025-09-21 21:40:31,697 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-21 21:57:41,483 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot: успешно запущен.
+2025-09-21 21:57:41,520 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot: успешно завершен.
+2025-09-21 21:58:40,508 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot.
+2025-09-21 21:58:40,508 - ERROR - [plinko kill] Ошибка при завершении процесса с PID 10203 для бота с node_id dark_27_chanell_bot: [Errno 3] No such process
+2025-09-21 21:59:40,997 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot:.
+2025-09-21 21:59:41,023 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot: успешно запущен с PID 10999.
+2025-09-21 21:59:41,026 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot: начат.
+2025-09-21 21:59:41,170 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot:.
+2025-09-21 21:59:42,115 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 21:59:42,127 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:00:00,450 - INFO - [save-profile] Data sent successfully.
+2025-09-21 22:00:00,452 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-21 22:15:00,857 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:16:18,469 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot: успешно запущен.
+2025-09-21 22:16:18,491 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot: успешно завершен.
+2025-09-21 22:17:37,441 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot.
+2025-09-21 22:17:37,441 - ERROR - [plinko kill] Ошибка при завершении процесса с PID 10999 для бота с node_id dark_27_chanell_bot: [Errno 3] No such process
+2025-09-21 22:18:45,708 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot.
+2025-09-21 22:18:45,733 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot успешно запущен с PID 16660.
+2025-09-21 22:18:45,736 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-21 22:18:45,743 - ERROR - [plinko-start] Ошибка при запуске процесса для бота с node_id dark_27_chanell_bot: Token is invalid!
+2025-09-21 22:20:45,690 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot.
+2025-09-21 22:20:45,690 - INFO - [plinko kill] Процесс с PID 16660 для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-21 22:21:14,088 - INFO - Подготовка к запуску нового бота с node_id @dark_27_chanell_bot:.
+2025-09-21 22:21:14,107 - INFO - [plinko-activate] Новый бот с node_id @dark_27_chanell_bot: успешно запущен с PID 16733.
+2025-09-21 22:21:14,108 - INFO - [plinko-start] Запуск процесса для бота с node_id @dark_27_chanell_bot: начат.
+2025-09-21 22:21:14,248 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID @dark_27_chanell_bot:.
+2025-09-21 22:21:15,173 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:21:15,185 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:21:15,187 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:21:15,190 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:23:43,470 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot.
+2025-09-21 22:23:43,470 - INFO - [plinko kill] Процесс с PID 16733 для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-21 22:24:05,788 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot:.
+2025-09-21 22:24:05,819 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot: успешно запущен с PID 16886.
+2025-09-21 22:24:05,827 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot: начат.
+2025-09-21 22:24:06,049 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot:.
+2025-09-21 22:26:46,025 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:27:04,314 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:27:41,337 - ERROR - [save-profile] Failed to send data: 404 {"ok": false, "detail": "bot not found"}
+2025-09-21 22:27:41,349 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-21 22:31:17,879 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot.
+2025-09-21 22:31:17,881 - INFO - [plinko kill] Процесс с PID 16886 для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-21 22:31:42,656 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot.
+2025-09-21 22:31:42,679 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot успешно запущен с PID 18447.
+2025-09-21 22:31:42,684 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-21 22:31:42,851 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-21 22:32:44,050 - INFO - [plinko-register] /start от 7325665748
+2025-09-21 22:33:13,631 - INFO - [save-profile] Data sent successfully.
+2025-09-21 22:33:13,633 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+7999123456
+2025-09-22 06:47:01,092 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 06:47:01,150 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 07:10:14,000 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 07:10:15,084 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 07:10:15,085 - INFO - [xx_pulse] Начата отправка медиа photo с URL: http://127.0.0.1:8000/media/_EDD1912_QsR9uSx.JPG
+2025-09-22 07:10:16,548 - INFO - [xx_pulse] Медиа успешно отправлено в чаты [7325665748]
+2025-09-22 07:13:27,803 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 07:13:28,420 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 07:13:28,639 - INFO - [xx_pulse] Текстовое сообщение успешно отправлено в чаты [7325665748]
+2025-09-22 07:30:29,545 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 07:30:30,366 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 07:30:30,577 - INFO - [xx_pulse] Текстовое сообщение успешно отправлено в чаты [7325665748]
+2025-09-22 20:32:43,095 - INFO - [plinko kill] Подготовка к завершению бота с node_id dark_27_chanell_bot.
+2025-09-22 20:32:43,096 - ERROR - [plinko kill] Ошибка при завершении процесса с PID 18447 для бота с node_id dark_27_chanell_bot: [Errno 3] No such process
+2025-09-22 20:39:55,490 - INFO - Подготовка к запуску нового бота с node_id dark_27_chanell_bot.
+2025-09-22 20:39:55,534 - INFO - [plinko-activate] Новый бот с node_id dark_27_chanell_bot успешно запущен с PID 6105.
+2025-09-22 20:39:55,535 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 20:39:55,636 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 20:39:57,511 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 20:46:28,494 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 20:46:28,535 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 20:47:18,657 - INFO - [plinko] Метод scan_and_activate_bots начат.
+2025-09-22 20:47:18,666 - INFO - [plinko] Найдено 1 ботов для запуска.
+2025-09-22 20:47:18,666 - INFO - [plinko] Завершаем процесс с PID 6105 для бота с ID 8.
+2025-09-22 20:47:18,666 - ERROR - [plinko-process] Ошибка при завершении процесса с PID 6105: [Errno 3] No such process
+2025-09-22 20:47:18,667 - INFO - [plinko] Подготовка к запуску процесса для бота с ID 8.
+2025-09-22 20:47:18,676 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 20:47:18,680 - INFO - [plinko] Процесс для бота с ID 8 запущен с PID 6659.
+2025-09-22 20:47:18,680 - INFO - [plinko] Метод scan_and_activate_bots завершен. Все процессы запущены.
+2025-09-22 20:47:18,727 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 20:52:34,077 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 20:52:34,269 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 20:53:53,427 - INFO - [save-profile] Data sent successfully.
+2025-09-22 20:53:53,428 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-22 21:39:46,315 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 21:39:46,361 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 21:44:24,218 - INFO - [plinko] Метод scan_and_activate_bots начат.
+2025-09-22 21:44:24,228 - INFO - [plinko] Найдено 1 ботов для запуска.
+2025-09-22 21:44:24,229 - INFO - [plinko] Завершаем процесс с PID 6659 для бота с ID 8.
+2025-09-22 21:44:24,229 - ERROR - [plinko-process] Ошибка при завершении процесса с PID 6659: [Errno 3] No such process
+2025-09-22 21:44:24,230 - INFO - [plinko] Подготовка к запуску процесса для бота с ID 8.
+2025-09-22 21:44:24,241 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 21:44:24,255 - INFO - [plinko] Процесс для бота с ID 8 запущен с PID 11504.
+2025-09-22 21:44:24,255 - INFO - [plinko] Метод scan_and_activate_bots завершен. Все процессы запущены.
+2025-09-22 21:44:24,287 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 21:44:24,805 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 21:44:24,808 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 21:44:55,784 - ERROR - [save-profile] Failed to send data: 500 {"ok": false, "detail": "internal error"}
+2025-09-22 21:44:55,815 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-22 21:47:24,170 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 21:47:56,822 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 21:47:56,838 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 21:48:12,039 - INFO - [plinko] Метод scan_and_activate_bots начат.
+2025-09-22 21:48:12,049 - INFO - [plinko] Найдено 1 ботов для запуска.
+2025-09-22 21:48:12,049 - INFO - [plinko] Завершаем процесс с PID 11504 для бота с ID 8.
+2025-09-22 21:48:12,050 - ERROR - [plinko-process] Ошибка при завершении процесса с PID 11504: [Errno 3] No such process
+2025-09-22 21:48:12,050 - INFO - [plinko] Подготовка к запуску процесса для бота с ID 8.
+2025-09-22 21:48:12,059 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 21:48:12,069 - INFO - [plinko] Процесс для бота с ID 8 запущен с PID 11875.
+2025-09-22 21:48:12,069 - INFO - [plinko] Метод scan_and_activate_bots завершен. Все процессы запущены.
+2025-09-22 21:48:12,128 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 21:48:41,437 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 21:49:02,992 - ERROR - [save-profile] Failed to send data: 500 {"ok": false, "detail": "internal error"}
+2025-09-22 21:49:03,004 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-22 21:52:02,157 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 21:52:02,216 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 21:52:13,653 - INFO - [plinko] Метод scan_and_activate_bots начат.
+2025-09-22 21:52:13,665 - INFO - [plinko] Найдено 1 ботов для запуска.
+2025-09-22 21:52:13,666 - INFO - [plinko] Завершаем процесс с PID 11875 для бота с ID 8.
+2025-09-22 21:52:13,666 - ERROR - [plinko-process] Ошибка при завершении процесса с PID 11875: [Errno 3] No such process
+2025-09-22 21:52:13,667 - INFO - [plinko] Подготовка к запуску процесса для бота с ID 8.
+2025-09-22 21:52:13,683 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 21:52:13,686 - INFO - [plinko] Процесс для бота с ID 8 запущен с PID 12518.
+2025-09-22 21:52:13,686 - INFO - [plinko] Метод scan_and_activate_bots завершен. Все процессы запущены.
+2025-09-22 21:52:13,733 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 21:53:57,975 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 21:54:13,301 - INFO - [save-profile] Data sent successfully.
+2025-09-22 21:54:13,302 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-22 21:59:09,738 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 21:59:10,391 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 21:59:10,391 - INFO - [xx_pulse] Начата отправка медиа photo с URL: http://127.0.0.1:8000/media/sonuc.png
+2025-09-22 21:59:10,684 - INFO - [xx_pulse] Медиа успешно отправлено в чаты [7325665748]
+2025-09-22 22:00:31,902 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 22:01:09,491 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 22:01:09,516 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 22:03:20,307 - INFO - [plinko] Метод scan_and_activate_bots начат.
+2025-09-22 22:03:20,316 - INFO - [plinko] Найдено 1 ботов для запуска.
+2025-09-22 22:03:20,317 - INFO - [plinko] Завершаем процесс с PID 12518 для бота с ID 8.
+2025-09-22 22:03:20,317 - ERROR - [plinko-process] Ошибка при завершении процесса с PID 12518: [Errno 3] No such process
+2025-09-22 22:03:20,318 - INFO - [plinko] Подготовка к запуску процесса для бота с ID 8.
+2025-09-22 22:03:20,332 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 22:03:20,336 - INFO - [plinko] Процесс для бота с ID 8 запущен с PID 14052.
+2025-09-22 22:03:20,336 - INFO - [plinko] Метод scan_and_activate_bots завершен. Все процессы запущены.
+2025-09-22 22:03:20,380 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 22:03:50,577 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 22:04:17,958 - ERROR - [save-profile] Failed to send data: 500 {"ok": false, "detail": "internal error"}
+2025-09-22 22:04:17,960 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-22 22:06:43,691 - INFO - [plinko-pool] Бот с ID dark_27_chanell_bot успешно запущен.
+2025-09-22 22:06:43,719 - INFO - [plinko-start] Процесс для бота с node_id dark_27_chanell_bot успешно завершен.
+2025-09-22 22:06:59,262 - INFO - [plinko] Метод scan_and_activate_bots начат.
+2025-09-22 22:06:59,275 - INFO - [plinko] Найдено 1 ботов для запуска.
+2025-09-22 22:06:59,275 - INFO - [plinko] Завершаем процесс с PID 14052 для бота с ID 8.
+2025-09-22 22:06:59,275 - ERROR - [plinko-process] Ошибка при завершении процесса с PID 14052: [Errno 3] No such process
+2025-09-22 22:06:59,277 - INFO - [plinko] Подготовка к запуску процесса для бота с ID 8.
+2025-09-22 22:06:59,295 - INFO - [plinko-start] Запуск процесса для бота с node_id dark_27_chanell_bot начат.
+2025-09-22 22:06:59,310 - INFO - [plinko] Процесс для бота с ID 8 запущен с PID 14707.
+2025-09-22 22:06:59,311 - INFO - [plinko] Метод scan_and_activate_bots завершен. Все процессы запущены.
+2025-09-22 22:06:59,341 - INFO - [plinko-register] Хэндлеры успешно зарегистрированы для бота с ID dark_27_chanell_bot.
+2025-09-22 22:07:32,237 - INFO - [plinko-register] /start от 7325665748
+2025-09-22 22:07:48,484 - INFO - [save-profile] Data sent successfully.
+2025-09-22 22:07:48,484 - INFO - [plinko-register] Профиль отправлен (1 раз): 7325665748 email=aroxan.999@gmail.com phone=+79991234567
+2025-09-22 22:08:07,387 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 22:08:07,910 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 22:08:07,910 - INFO - [xx_pulse] Начата отправка медиа photo с URL: http://127.0.0.1:8000/media/sonuc.png
+2025-09-22 22:08:08,089 - INFO - [xx_pulse] Медиа успешно отправлено в чаты [7325665748]
+2025-09-22 22:08:19,140 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 22:08:20,209 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 22:08:20,209 - INFO - [xx_pulse] Начата отправка медиа photo с URL: http://127.0.0.1:8000/media/sonuc.png
+2025-09-22 22:08:20,336 - INFO - [xx_pulse] Медиа успешно отправлено в чаты [7325665748]
+2025-09-22 22:11:54,550 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 22:11:55,206 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 22:11:55,207 - INFO - [xx_pulse] Начата отправка медиа photo с URL: http://127.0.0.1:8000/media/sonuc.png
+2025-09-22 22:11:58,652 - INFO - [xx_pulse] Медиа успешно отправлено в чаты [7325665748]
+2025-09-22 22:12:06,162 - INFO - [xx_pulse] Бот с ID dark_27_chanell_bot успешно инициализирован.
+2025-09-22 22:12:06,522 - INFO - [xx_pulse] Кнопка Play успешно добавлена в меню: https://sonicliine.com/
+2025-09-22 22:12:06,522 - INFO - [xx_pulse] Начата отправка медиа photo с URL: http://127.0.0.1:8000/media/sonuc.png
+2025-09-22 22:12:06,703 - INFO - [xx_pulse] Медиа успешно отправлено в чаты [7325665748]

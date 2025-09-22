@@ -1,0 +1,20 @@
+2025-09-21 21:25:02,456 - ERROR - [zombie] Network error occurred: Request URL is missing an 'http://' or 'https://' protocol.
+2025-09-21 21:39:26,097 - ERROR - [zombie] Ошибка при завершении процесса с PID 9730 для бота с node_id dark_27_chanell_bot:: [Errno 3] No such process
+2025-09-21 21:58:40,508 - ERROR - [zombie] Ошибка при завершении процесса с PID 10203 для бота с node_id dark_27_chanell_bot: [Errno 3] No such process
+2025-09-21 22:17:37,441 - ERROR - [zombie] Ошибка при завершении процесса с PID 10999 для бота с node_id dark_27_chanell_bot: [Errno 3] No such process
+2025-09-21 22:18:45,743 - ERROR - [zombie] Ошибка при запуске процесса для бота с node_id dark_27_chanell_bot: Token is invalid!
+2025-09-21 22:27:41,346 - ERROR - [zombie] Failed to send data:{'full_name': 'amore deikakoten', 'username': 'kekeiy_tota', 'telegram_language': 'en', 'is_active_in_telegram': 'true', 'node_id': 'dark_27_chanell_bot:', 'telegram_user_id': '7325665748', 'email': 'aroxan.999@gmail.com', 'phone': '+79991234567'} 404 {"ok": false, "detail": "bot not found"}
+2025-09-22 07:08:21,201 - ERROR - [zombie] Ошибка сериализатора: {'media_url': [ErrorDetail(string='Это поле не может быть пустым.', code='null')], 'media_type': [ErrorDetail(string='Это поле не может быть пустым.', code='null')]}
+2025-09-22 20:32:43,096 - ERROR - [zombie] Ошибка при завершении процесса с PID 18447 для бота с node_id dark_27_chanell_bot: [Errno 3] No such process
+2025-09-22 20:47:18,667 - ERROR - [zombie] Ошибка при завершении процесса с PID 6105: [Errno 3] No such process
+2025-09-22 21:44:24,229 - ERROR - [zombie] Ошибка при завершении процесса с PID 6659: [Errno 3] No such process
+2025-09-22 21:44:55,731 - ERROR - [save profile] Ошибка: name 'code' is not defined
+2025-09-22 21:44:55,811 - ERROR - [zombie] Failed to send data:{'full_name': 'amore deikakoten', 'username': 'kekeiy_tota', 'telegram_language': 'en', 'is_active_in_telegram': 'true', 'node_id': 'dark_27_chanell_bot', 'telegram_user_id': '7325665748', 'email': 'aroxan.999@gmail.com', 'phone': '+79991234567'} 500 {"ok": false, "detail": "internal error"}
+2025-09-22 21:48:12,050 - ERROR - [zombie] Ошибка при завершении процесса с PID 11504: [Errno 3] No such process
+2025-09-22 21:49:02,931 - ERROR - [save profile] Ошибка: name 'code' is not defined
+2025-09-22 21:49:03,001 - ERROR - [zombie] Failed to send data:{'full_name': 'amore deikakoten', 'username': 'kekeiy_tota', 'telegram_language': 'en', 'is_active_in_telegram': 'true', 'node_id': 'dark_27_chanell_bot', 'telegram_user_id': '7325665748', 'email': 'aroxan.999@gmail.com', 'phone': '+79991234567'} 500 {"ok": false, "detail": "internal error"}
+2025-09-22 21:52:13,666 - ERROR - [zombie] Ошибка при завершении процесса с PID 11875: [Errno 3] No such process
+2025-09-22 22:03:20,317 - ERROR - [zombie] Ошибка при завершении процесса с PID 12518: [Errno 3] No such process
+2025-09-22 22:04:17,933 - ERROR - [save profile] Ошибка: name 'code_safe' is not defined
+2025-09-22 22:04:17,960 - ERROR - [zombie] Failed to send data:{'full_name': 'amore deikakoten', 'username': 'kekeiy_tota', 'telegram_language': 'en', 'is_active_in_telegram': 'true', 'node_id': 'dark_27_chanell_bot', 'telegram_user_id': '7325665748', 'email': 'aroxan.999@gmail.com', 'phone': '+79991234567'} 500 {"ok": false, "detail": "internal error"}
+2025-09-22 22:06:59,276 - ERROR - [zombie] Ошибка при завершении процесса с PID 14052: [Errno 3] No such process
