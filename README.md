@@ -151,5 +151,5 @@ python manage.py runserver
 
 ## 10) установка проект а
 ```bash
-https://github.com/aroxan9999999/Nexa.git
+git clone https://github.com/aroxan9999999/Nexa.git
 ```
