@@ -151,5 +151,5 @@ python manage.py runserver
 
 ## 10) установка проект а
 ```bash
-python manage.py createsuperuser
+https://github.com/aroxan9999999/Nexa.git
 ```
