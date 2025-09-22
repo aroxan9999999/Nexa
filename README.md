@@ -22,6 +22,8 @@ python manage.py createsuperuser
 
 ## 2) Добавление бота
 
+![img.png](img.png)
+
 В админке создайте **Bot** (`CyberXXBot`):
 - **name** — любое имя.
 - **username** — **юзернейм из BotFather** (без `@`).
@@ -32,6 +34,8 @@ python manage.py createsuperuser
 ---
 
 ## 3) Страница лендинга
+
+![img_1.png](img_1.png)
 
 Создайте **LandingPage** для бота:
 - **bot** — ваш бот.
@@ -93,6 +97,8 @@ POST /save_profile_data
 
 Укажите свои креды для почты и SMS:
 
+![img_5.png](img_5.png)
+
 ```python
 # Email (SMTP)
 EMAIL_HOST = "smtp.example.com"
@@ -143,3 +149,7 @@ python manage.py runserver
 - `GET /lending/<username>/` — отдает лендинг по боту
 - `POST /save_profile_data` — сохраняет/обновляет `UserProfile`
 
+## 10) установка проект а
+```bash
+python manage.py createsuperuser
+```
